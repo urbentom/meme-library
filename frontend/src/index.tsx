@@ -10,7 +10,7 @@ import { Home } from './scenes';
 import { Layout } from './layouts';
 
 const client = new ApolloClient({
-	uri: '', // http://localhost:your-gql-server
+	uri: 'http://localhost:1337/graphql', // http://localhost:your-gql-server
 });
 
 export const App: FC = () => (
