@@ -1,0 +1,20 @@
+{
+  "kind": "collectionType",
+  "collectionName": "memes",
+  "info": {
+    "name": "memes"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "attributes": {
+    "reference_name": {
+      "type": "string"
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}
